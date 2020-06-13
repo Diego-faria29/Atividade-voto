@@ -1,0 +1,6 @@
+C:\Users\digui\Downloads\ModeloCamadasCSharp-master (1)\ModeloCamadasCSharp-master\MODELO\bin\Debug\MODELO.dll
+C:\Users\digui\Downloads\ModeloCamadasCSharp-master (1)\ModeloCamadasCSharp-master\MODELO\bin\Debug\MODELO.pdb
+C:\Users\digui\Downloads\ModeloCamadasCSharp-master (1)\ModeloCamadasCSharp-master\MODELO\obj\Debug\MODELO.csprojAssemblyReference.cache
+C:\Users\digui\Downloads\ModeloCamadasCSharp-master (1)\ModeloCamadasCSharp-master\MODELO\obj\Debug\MODELO.csproj.CoreCompileInputs.cache
+C:\Users\digui\Downloads\ModeloCamadasCSharp-master (1)\ModeloCamadasCSharp-master\MODELO\obj\Debug\MODELO.dll
+C:\Users\digui\Downloads\ModeloCamadasCSharp-master (1)\ModeloCamadasCSharp-master\MODELO\obj\Debug\MODELO.pdb

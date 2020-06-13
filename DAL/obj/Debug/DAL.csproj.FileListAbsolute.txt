@@ -1,0 +1,10 @@
+C:\Users\digui\Downloads\ModeloCamadasCSharp-master (1)\ModeloCamadasCSharp-master\DAL\bin\Debug\DAL.dll
+C:\Users\digui\Downloads\ModeloCamadasCSharp-master (1)\ModeloCamadasCSharp-master\DAL\bin\Debug\DAL.pdb
+C:\Users\digui\Downloads\ModeloCamadasCSharp-master (1)\ModeloCamadasCSharp-master\DAL\bin\Debug\MODELO.dll
+C:\Users\digui\Downloads\ModeloCamadasCSharp-master (1)\ModeloCamadasCSharp-master\DAL\bin\Debug\MySql.Data.dll
+C:\Users\digui\Downloads\ModeloCamadasCSharp-master (1)\ModeloCamadasCSharp-master\DAL\bin\Debug\MODELO.pdb
+C:\Users\digui\Downloads\ModeloCamadasCSharp-master (1)\ModeloCamadasCSharp-master\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+C:\Users\digui\Downloads\ModeloCamadasCSharp-master (1)\ModeloCamadasCSharp-master\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\digui\Downloads\ModeloCamadasCSharp-master (1)\ModeloCamadasCSharp-master\DAL\obj\Debug\DAL.csproj.CopyComplete
+C:\Users\digui\Downloads\ModeloCamadasCSharp-master (1)\ModeloCamadasCSharp-master\DAL\obj\Debug\DAL.dll
+C:\Users\digui\Downloads\ModeloCamadasCSharp-master (1)\ModeloCamadasCSharp-master\DAL\obj\Debug\DAL.pdb
