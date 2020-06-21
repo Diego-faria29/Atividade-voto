@@ -11,9 +11,9 @@ namespace DAL
     {
         private string server = "remotemysql.com";
         private string port = "3306";
-        private string user = "eJR0qqPKWe";
-        private string pass = "CUVmumuZmC";
-        private string database = "eJR0qqPKWe";
+        private string user = "a49gmoAH95";
+        private string pass = "qONd1M68MI";
+        private string database = "a49gmoAH95";
 
         public string StringDeConexao
         {

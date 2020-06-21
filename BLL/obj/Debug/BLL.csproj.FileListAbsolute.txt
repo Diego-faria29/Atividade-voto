@@ -10,3 +10,15 @@ C:\Users\digui\Downloads\ModeloCamadasCSharp-master (1)\ModeloCamadasCSharp-mast
 C:\Users\digui\Downloads\ModeloCamadasCSharp-master (1)\ModeloCamadasCSharp-master\BLL\obj\Debug\BLL.csproj.CopyComplete
 C:\Users\digui\Downloads\ModeloCamadasCSharp-master (1)\ModeloCamadasCSharp-master\BLL\obj\Debug\BLL.dll
 C:\Users\digui\Downloads\ModeloCamadasCSharp-master (1)\ModeloCamadasCSharp-master\BLL\obj\Debug\BLL.pdb
+C:\Users\digui\OneDrive\Área de Trabalho\Unis\terceiro periodo\POO\ModeloCamadasCSharp-master (1)\Atividade marlao\BLL\bin\Debug\BLL.dll
+C:\Users\digui\OneDrive\Área de Trabalho\Unis\terceiro periodo\POO\ModeloCamadasCSharp-master (1)\Atividade marlao\BLL\bin\Debug\BLL.pdb
+C:\Users\digui\OneDrive\Área de Trabalho\Unis\terceiro periodo\POO\ModeloCamadasCSharp-master (1)\Atividade marlao\BLL\bin\Debug\DAL.dll
+C:\Users\digui\OneDrive\Área de Trabalho\Unis\terceiro periodo\POO\ModeloCamadasCSharp-master (1)\Atividade marlao\BLL\bin\Debug\MODELO.dll
+C:\Users\digui\OneDrive\Área de Trabalho\Unis\terceiro periodo\POO\ModeloCamadasCSharp-master (1)\Atividade marlao\BLL\bin\Debug\MySql.Data.dll
+C:\Users\digui\OneDrive\Área de Trabalho\Unis\terceiro periodo\POO\ModeloCamadasCSharp-master (1)\Atividade marlao\BLL\bin\Debug\DAL.pdb
+C:\Users\digui\OneDrive\Área de Trabalho\Unis\terceiro periodo\POO\ModeloCamadasCSharp-master (1)\Atividade marlao\BLL\bin\Debug\MODELO.pdb
+C:\Users\digui\OneDrive\Área de Trabalho\Unis\terceiro periodo\POO\ModeloCamadasCSharp-master (1)\Atividade marlao\BLL\obj\Debug\BLL.csprojAssemblyReference.cache
+C:\Users\digui\OneDrive\Área de Trabalho\Unis\terceiro periodo\POO\ModeloCamadasCSharp-master (1)\Atividade marlao\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+C:\Users\digui\OneDrive\Área de Trabalho\Unis\terceiro periodo\POO\ModeloCamadasCSharp-master (1)\Atividade marlao\BLL\obj\Debug\BLL.csproj.CopyComplete
+C:\Users\digui\OneDrive\Área de Trabalho\Unis\terceiro periodo\POO\ModeloCamadasCSharp-master (1)\Atividade marlao\BLL\obj\Debug\BLL.dll
+C:\Users\digui\OneDrive\Área de Trabalho\Unis\terceiro periodo\POO\ModeloCamadasCSharp-master (1)\Atividade marlao\BLL\obj\Debug\BLL.pdb

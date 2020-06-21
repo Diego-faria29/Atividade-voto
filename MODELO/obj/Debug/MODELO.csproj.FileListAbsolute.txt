@@ -4,3 +4,9 @@ C:\Users\digui\Downloads\ModeloCamadasCSharp-master (1)\ModeloCamadasCSharp-mast
 C:\Users\digui\Downloads\ModeloCamadasCSharp-master (1)\ModeloCamadasCSharp-master\MODELO\obj\Debug\MODELO.csproj.CoreCompileInputs.cache
 C:\Users\digui\Downloads\ModeloCamadasCSharp-master (1)\ModeloCamadasCSharp-master\MODELO\obj\Debug\MODELO.dll
 C:\Users\digui\Downloads\ModeloCamadasCSharp-master (1)\ModeloCamadasCSharp-master\MODELO\obj\Debug\MODELO.pdb
+C:\Users\digui\OneDrive\Área de Trabalho\Unis\terceiro periodo\POO\ModeloCamadasCSharp-master (1)\Atividade marlao\MODELO\bin\Debug\MODELO.dll
+C:\Users\digui\OneDrive\Área de Trabalho\Unis\terceiro periodo\POO\ModeloCamadasCSharp-master (1)\Atividade marlao\MODELO\bin\Debug\MODELO.pdb
+C:\Users\digui\OneDrive\Área de Trabalho\Unis\terceiro periodo\POO\ModeloCamadasCSharp-master (1)\Atividade marlao\MODELO\obj\Debug\MODELO.csprojAssemblyReference.cache
+C:\Users\digui\OneDrive\Área de Trabalho\Unis\terceiro periodo\POO\ModeloCamadasCSharp-master (1)\Atividade marlao\MODELO\obj\Debug\MODELO.csproj.CoreCompileInputs.cache
+C:\Users\digui\OneDrive\Área de Trabalho\Unis\terceiro periodo\POO\ModeloCamadasCSharp-master (1)\Atividade marlao\MODELO\obj\Debug\MODELO.dll
+C:\Users\digui\OneDrive\Área de Trabalho\Unis\terceiro periodo\POO\ModeloCamadasCSharp-master (1)\Atividade marlao\MODELO\obj\Debug\MODELO.pdb

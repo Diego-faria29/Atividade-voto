@@ -50,12 +50,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="frmCadastroPessoa.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmCadastroPessoa.Designer.cs">
-      <DependentUpon>frmCadastroPessoa.cs</DependentUpon>
-    </Compile>
     <Compile Include="FRMEleicao.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -67,12 +61,6 @@
     </Compile>
     <Compile Include="FRMEmpresa.Designer.cs">
       <DependentUpon>FRMEmpresa.cs</DependentUpon>
-    </Compile>
-    <Compile Include="FRMLocalizar.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FRMLocalizar.Designer.cs">
-      <DependentUpon>FRMLocalizar.cs</DependentUpon>
     </Compile>
     <Compile Include="FRMLocalizarEleicao.cs">
       <SubType>Form</SubType>
@@ -100,17 +88,11 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="frmCadastroPessoa.resx">
-      <DependentUpon>frmCadastroPessoa.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="FRMEleicao.resx">
       <DependentUpon>FRMEleicao.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FRMEmpresa.resx">
       <DependentUpon>FRMEmpresa.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FRMLocalizar.resx">
-      <DependentUpon>FRMLocalizar.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FRMLocalizarEleicao.resx">
       <DependentUpon>FRMLocalizarEleicao.cs</DependentUpon>

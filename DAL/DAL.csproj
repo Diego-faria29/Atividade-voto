@@ -47,7 +47,6 @@
     <Compile Include="DALConexao.cs" />
     <Compile Include="DALEleicao.cs" />
     <Compile Include="DALEmpresa.cs" />
-    <Compile Include="DALPessoa.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

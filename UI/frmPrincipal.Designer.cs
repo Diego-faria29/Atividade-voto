@@ -59,12 +59,6 @@
             this.cadastrosToolStripMenuItem.Size = new System.Drawing.Size(71, 20);
             this.cadastrosToolStripMenuItem.Text = "Cadastros";
             // 
-            // pessoaToolStripMenuItem
-            // 
-            this.pessoaToolStripMenuItem.Name = "pessoaToolStripMenuItem";
-            this.pessoaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.pessoaToolStripMenuItem.Text = "Pessoa";
-            this.pessoaToolStripMenuItem.Click += new System.EventHandler(this.pessoaToolStripMenuItem_Click);
             // 
             // empresaToolStripMenuItem
             // 

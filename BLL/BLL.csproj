@@ -46,7 +46,6 @@
   <ItemGroup>
     <Compile Include="BLLEleicao.cs" />
     <Compile Include="BLLEmpresa.cs" />
-    <Compile Include="BLLPessoa.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

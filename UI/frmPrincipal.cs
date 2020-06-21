@@ -17,13 +17,6 @@ namespace PadraoDeProjetoEmCamadas
             InitializeComponent();
         }
 
-        private void pessoaToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            frmCadastroPessoa f = new frmCadastroPessoa(this);
-            f.ShowDialog();
-            f.Dispose();
-            this.Text = "Menu";
-        }
 
         private void empresaToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -40,5 +33,6 @@ namespace PadraoDeProjetoEmCamadas
             el.Dispose();
             this.Text = "Menu";
         }
+
     }
 }

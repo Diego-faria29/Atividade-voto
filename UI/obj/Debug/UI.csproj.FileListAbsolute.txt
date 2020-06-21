@@ -23,3 +23,26 @@ C:\Users\digui\Downloads\ModeloCamadasCSharp-master (1)\ModeloCamadasCSharp-mast
 C:\Users\digui\Downloads\ModeloCamadasCSharp-master (1)\ModeloCamadasCSharp-master\UI\obj\Debug\PadraoDeProjetoEmCamadas.FRMEleicao.resources
 C:\Users\digui\Downloads\ModeloCamadasCSharp-master (1)\ModeloCamadasCSharp-master\UI\obj\Debug\PadraoDeProjetoEmCamadas.FRMLocalizarEleicao.resources
 C:\Users\digui\Downloads\ModeloCamadasCSharp-master (1)\ModeloCamadasCSharp-master\UI\obj\Debug\PadraoDeProjetoEmCamadas.FRMLocalizarEM.resources
+C:\Users\digui\OneDrive\Área de Trabalho\Unis\terceiro periodo\POO\ModeloCamadasCSharp-master (1)\Atividade marlao\UI\bin\Debug\PadraoDeProjetoEmCamadas.exe.config
+C:\Users\digui\OneDrive\Área de Trabalho\Unis\terceiro periodo\POO\ModeloCamadasCSharp-master (1)\Atividade marlao\UI\bin\Debug\PadraoDeProjetoEmCamadas.exe
+C:\Users\digui\OneDrive\Área de Trabalho\Unis\terceiro periodo\POO\ModeloCamadasCSharp-master (1)\Atividade marlao\UI\bin\Debug\PadraoDeProjetoEmCamadas.pdb
+C:\Users\digui\OneDrive\Área de Trabalho\Unis\terceiro periodo\POO\ModeloCamadasCSharp-master (1)\Atividade marlao\UI\bin\Debug\BLL.dll
+C:\Users\digui\OneDrive\Área de Trabalho\Unis\terceiro periodo\POO\ModeloCamadasCSharp-master (1)\Atividade marlao\UI\bin\Debug\DAL.dll
+C:\Users\digui\OneDrive\Área de Trabalho\Unis\terceiro periodo\POO\ModeloCamadasCSharp-master (1)\Atividade marlao\UI\bin\Debug\MODELO.dll
+C:\Users\digui\OneDrive\Área de Trabalho\Unis\terceiro periodo\POO\ModeloCamadasCSharp-master (1)\Atividade marlao\UI\bin\Debug\MySql.Data.dll
+C:\Users\digui\OneDrive\Área de Trabalho\Unis\terceiro periodo\POO\ModeloCamadasCSharp-master (1)\Atividade marlao\UI\bin\Debug\BLL.pdb
+C:\Users\digui\OneDrive\Área de Trabalho\Unis\terceiro periodo\POO\ModeloCamadasCSharp-master (1)\Atividade marlao\UI\bin\Debug\DAL.pdb
+C:\Users\digui\OneDrive\Área de Trabalho\Unis\terceiro periodo\POO\ModeloCamadasCSharp-master (1)\Atividade marlao\UI\bin\Debug\MODELO.pdb
+C:\Users\digui\OneDrive\Área de Trabalho\Unis\terceiro periodo\POO\ModeloCamadasCSharp-master (1)\Atividade marlao\UI\obj\Debug\UI.csprojAssemblyReference.cache
+C:\Users\digui\OneDrive\Área de Trabalho\Unis\terceiro periodo\POO\ModeloCamadasCSharp-master (1)\Atividade marlao\UI\obj\Debug\PadraoDeProjetoEmCamadas.FRMEleicao.resources
+C:\Users\digui\OneDrive\Área de Trabalho\Unis\terceiro periodo\POO\ModeloCamadasCSharp-master (1)\Atividade marlao\UI\obj\Debug\PadraoDeProjetoEmCamadas.FRMEmpresa.resources
+C:\Users\digui\OneDrive\Área de Trabalho\Unis\terceiro periodo\POO\ModeloCamadasCSharp-master (1)\Atividade marlao\UI\obj\Debug\PadraoDeProjetoEmCamadas.FRMLocalizarEleicao.resources
+C:\Users\digui\OneDrive\Área de Trabalho\Unis\terceiro periodo\POO\ModeloCamadasCSharp-master (1)\Atividade marlao\UI\obj\Debug\PadraoDeProjetoEmCamadas.frmModeloDeCadastro.resources
+C:\Users\digui\OneDrive\Área de Trabalho\Unis\terceiro periodo\POO\ModeloCamadasCSharp-master (1)\Atividade marlao\UI\obj\Debug\PadraoDeProjetoEmCamadas.frmPrincipal.resources
+C:\Users\digui\OneDrive\Área de Trabalho\Unis\terceiro periodo\POO\ModeloCamadasCSharp-master (1)\Atividade marlao\UI\obj\Debug\PadraoDeProjetoEmCamadas.FRMLocalizarEM.resources
+C:\Users\digui\OneDrive\Área de Trabalho\Unis\terceiro periodo\POO\ModeloCamadasCSharp-master (1)\Atividade marlao\UI\obj\Debug\PadraoDeProjetoEmCamadas.Properties.Resources.resources
+C:\Users\digui\OneDrive\Área de Trabalho\Unis\terceiro periodo\POO\ModeloCamadasCSharp-master (1)\Atividade marlao\UI\obj\Debug\UI.csproj.GenerateResource.cache
+C:\Users\digui\OneDrive\Área de Trabalho\Unis\terceiro periodo\POO\ModeloCamadasCSharp-master (1)\Atividade marlao\UI\obj\Debug\UI.csproj.CoreCompileInputs.cache
+C:\Users\digui\OneDrive\Área de Trabalho\Unis\terceiro periodo\POO\ModeloCamadasCSharp-master (1)\Atividade marlao\UI\obj\Debug\UI.csproj.CopyComplete
+C:\Users\digui\OneDrive\Área de Trabalho\Unis\terceiro periodo\POO\ModeloCamadasCSharp-master (1)\Atividade marlao\UI\obj\Debug\PadraoDeProjetoEmCamadas.exe
+C:\Users\digui\OneDrive\Área de Trabalho\Unis\terceiro periodo\POO\ModeloCamadasCSharp-master (1)\Atividade marlao\UI\obj\Debug\PadraoDeProjetoEmCamadas.pdb
