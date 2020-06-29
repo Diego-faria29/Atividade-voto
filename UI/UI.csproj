@@ -9,9 +9,10 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>PadraoDeProjetoEmCamadas</RootNamespace>
     <AssemblyName>PadraoDeProjetoEmCamadas</AssemblyName>
-    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -33,6 +34,24 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1404.0\lib\net40\Microsoft.ReportViewer.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.DataVisualization, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1404.0\lib\net40\Microsoft.ReportViewer.DataVisualization.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Design, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1404.0\lib\net40\Microsoft.ReportViewer.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.ProcessingObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1404.0\lib\net40\Microsoft.ReportViewer.ProcessingObjectModel.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1404.0\lib\net40\Microsoft.ReportViewer.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.Types, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.SqlServer.Types.14.0.1016.290\lib\net40\Microsoft.SqlServer.Types.dll</HintPath>
+    </Reference>
     <Reference Include="MySql.Data, Version=8.0.19.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\DAL\dllconexao\MySql.Data.dll</HintPath>
@@ -50,6 +69,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="a49gmoAH95DataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>a49gmoAH95DataSet.xsd</DependentUpon>
+    </Compile>
     <Compile Include="FRMEleicao.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -88,6 +112,19 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Relatorios\FRMRelEleicao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Relatorios\FRMRelEleicao.Designer.cs">
+      <DependentUpon>FRMRelEleicao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Relatorios\FRMRelEmpresa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Relatorios\FRMRelEmpresa.Designer.cs">
+      <DependentUpon>FRMRelEmpresa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SqlServerTypes\Loader.cs" />
     <EmbeddedResource Include="FRMEleicao.resx">
       <DependentUpon>FRMEleicao.cs</DependentUpon>
     </EmbeddedResource>
@@ -116,6 +153,125 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="Relatorios\FRMRelEleicao.resx">
+      <DependentUpon>FRMRelEleicao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Relatorios\FRMRelEmpresa.resx">
+      <DependentUpon>FRMRelEmpresa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Relatorios\relatorio_empresa.rdlc" />
+    <EmbeddedResource Include="Relatorios\RELeleicao.rdlc" />
+    <None Include="a49gmoAH95DataSet.xsc">
+      <DependentUpon>a49gmoAH95DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="a49gmoAH95DataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>a49gmoAH95DataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="a49gmoAH95DataSet.xss">
+      <DependentUpon>a49gmoAH95DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\DataSources\MySql.Data.Common.StringUtility.datasource" />
+    <None Include="Properties\DataSources\MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.datasource" />
+    <None Include="Properties\DataSources\MySql.Data.MySqlClient.Authentication.MySqlNativePasswordPlugin.datasource" />
+    <None Include="Properties\DataSources\MySql.Data.MySqlClient.Authentication.MySqlPemReader.datasource" />
+    <None Include="Properties\DataSources\MySql.Data.MySqlClient.Authentication.SecBuffer.datasource" />
+    <None Include="Properties\DataSources\MySql.Data.MySqlClient.Authentication.SecHandle.datasource" />
+    <None Include="Properties\DataSources\MySql.Data.MySqlClient.Authentication.SecPkgContext_Sizes.datasource" />
+    <None Include="Properties\DataSources\MySql.Data.MySqlClient.Authentication.SECURITY_HANDLE.datasource" />
+    <None Include="Properties\DataSources\MySql.Data.MySqlClient.Authentication.SECURITY_INTEGER.datasource" />
+    <None Include="Properties\DataSources\MySql.Data.MySqlClient.AuthenticationPluginConfigurationElement.datasource" />
+    <None Include="Properties\DataSources\MySql.Data.MySqlClient.BaseCommandInterceptor.datasource" />
+    <None Include="Properties\DataSources\MySql.Data.MySqlClient.BaseTableCache.datasource" />
+    <None Include="Properties\DataSources\MySql.Data.MySqlClient.CustomInstaller.datasource" />
+    <None Include="Properties\DataSources\MySql.Data.MySqlClient.InterceptorConfigurationElement.datasource" />
+    <None Include="Properties\DataSources\MySql.Data.MySqlClient.Interceptors.BaseExceptionInterceptor.datasource" />
+    <None Include="Properties\DataSources\MySql.Data.MySqlClient.Memcached.BinaryClient.datasource" />
+    <None Include="Properties\DataSources\MySql.Data.MySqlClient.Memcached.Client.datasource" />
+    <None Include="Properties\DataSources\MySql.Data.MySqlClient.Memcached.MemcachedException.datasource" />
+    <None Include="Properties\DataSources\MySql.Data.MySqlClient.Memcached.TextClient.datasource" />
+    <None Include="Properties\DataSources\MySql.Data.MySqlClient.MySqlBaseConnectionStringBuilder.datasource" />
+    <None Include="Properties\DataSources\MySql.Data.MySqlClient.MySqlBulkLoader.datasource" />
+    <None Include="Properties\DataSources\MySql.Data.MySqlClient.MySqlClientFactory.datasource" />
+    <None Include="Properties\DataSources\MySql.Data.MySqlClient.MySqlClientPermission.datasource" />
+    <None Include="Properties\DataSources\MySql.Data.MySqlClient.MySqlClientPermissionAttribute.datasource" />
+    <None Include="Properties\DataSources\MySql.Data.MySqlClient.MySqlCommand.datasource" />
+    <None Include="Properties\DataSources\MySql.Data.MySqlClient.MySqlCommandBuilder.datasource" />
+    <None Include="Properties\DataSources\MySql.Data.MySqlClient.MySqlConfiguration.datasource" />
+    <None Include="Properties\DataSources\MySql.Data.MySqlClient.MySqlConnection.datasource" />
+    <None Include="Properties\DataSources\MySql.Data.MySqlClient.MySqlConnectionStringBuilder.datasource" />
+    <None Include="Properties\DataSources\MySql.Data.MySqlClient.MySqlDataAdapter.datasource" />
+    <None Include="Properties\DataSources\MySql.Data.MySqlClient.MySqlDataReader.datasource" />
+    <None Include="Properties\DataSources\MySql.Data.MySqlClient.MySqlError.datasource" />
+    <None Include="Properties\DataSources\MySql.Data.MySqlClient.MySqlException.datasource" />
+    <None Include="Properties\DataSources\MySql.Data.MySqlClient.MySqlHelper.datasource" />
+    <None Include="Properties\DataSources\MySql.Data.MySqlClient.MySqlInfoMessageEventArgs.datasource" />
+    <None Include="Properties\DataSources\MySql.Data.MySqlClient.MySqlInfoMessageEventHandler.datasource" />
+    <None Include="Properties\DataSources\MySql.Data.MySqlClient.MySqlParameter.datasource" />
+    <None Include="Properties\DataSources\MySql.Data.MySqlClient.MySqlParameterCollection.datasource" />
+    <None Include="Properties\DataSources\MySql.Data.MySqlClient.MySqlRowUpdatedEventArgs.datasource" />
+    <None Include="Properties\DataSources\MySql.Data.MySqlClient.MySqlRowUpdatedEventHandler.datasource" />
+    <None Include="Properties\DataSources\MySql.Data.MySqlClient.MySqlRowUpdatingEventArgs.datasource" />
+    <None Include="Properties\DataSources\MySql.Data.MySqlClient.MySqlRowUpdatingEventHandler.datasource" />
+    <None Include="Properties\DataSources\MySql.Data.MySqlClient.MySqlSchemaCollection.datasource" />
+    <None Include="Properties\DataSources\MySql.Data.MySqlClient.MySqlSchemaRow.datasource" />
+    <None Include="Properties\DataSources\MySql.Data.MySqlClient.MySqlScript.datasource" />
+    <None Include="Properties\DataSources\MySql.Data.MySqlClient.MySqlScriptErrorEventArgs.datasource" />
+    <None Include="Properties\DataSources\MySql.Data.MySqlClient.MySqlScriptErrorEventHandler.datasource" />
+    <None Include="Properties\DataSources\MySql.Data.MySqlClient.MySqlScriptEventArgs.datasource" />
+    <None Include="Properties\DataSources\MySql.Data.MySqlClient.MySqlSecurityPermission.datasource" />
+    <None Include="Properties\DataSources\MySql.Data.MySqlClient.MySqlStatementExecutedEventHandler.datasource" />
+    <None Include="Properties\DataSources\MySql.Data.MySqlClient.MySqlTrace.datasource" />
+    <None Include="Properties\DataSources\MySql.Data.MySqlClient.MySqlTransaction.datasource" />
+    <None Include="Properties\DataSources\MySql.Data.MySqlClient.Replication.ReplicationRoundRobinServerGroup.datasource" />
+    <None Include="Properties\DataSources\MySql.Data.MySqlClient.Replication.ReplicationServer.datasource" />
+    <None Include="Properties\DataSources\MySql.Data.MySqlClient.Replication.ReplicationServerGroup.datasource" />
+    <None Include="Properties\DataSources\MySql.Data.MySqlClient.ReplicationConfigurationElement.datasource" />
+    <None Include="Properties\DataSources\MySql.Data.MySqlClient.ReplicationServerConfigurationElement.datasource" />
+    <None Include="Properties\DataSources\MySql.Data.MySqlClient.ReplicationServerGroupConfigurationElement.datasource" />
+    <None Include="Properties\DataSources\MySql.Data.MySqlClient.SchemaColumn.datasource" />
+    <None Include="Properties\DataSources\MySql.Data.Resources.datasource" />
+    <None Include="Properties\DataSources\MySql.Data.ResourcesX.datasource" />
+    <None Include="Properties\DataSources\MySql.Data.Types.MySqlConversionException.datasource" />
+    <None Include="Properties\DataSources\MySql.Data.Types.MySqlDateTime.datasource" />
+    <None Include="Properties\DataSources\MySql.Data.Types.MySqlDecimal.datasource" />
+    <None Include="Properties\DataSources\MySql.Data.Types.MySqlGeometry.datasource" />
+    <None Include="Properties\DataSources\MySqlX.Protocol.ProtocolBase.datasource" />
+    <None Include="Properties\DataSources\MySqlX.Serialization.JsonParser.datasource" />
+    <None Include="Properties\DataSources\MySqlX.XDevAPI.BaseSession.datasource" />
+    <None Include="Properties\DataSources\MySqlX.XDevAPI.Client.datasource" />
+    <None Include="Properties\DataSources\MySqlX.XDevAPI.Collection.datasource" />
+    <None Include="Properties\DataSources\MySqlX.XDevAPI.Common.BaseResult.datasource" />
+    <None Include="Properties\DataSources\MySqlX.XDevAPI.Common.ErrorInfo.datasource" />
+    <None Include="Properties\DataSources\MySqlX.XDevAPI.Common.Result.datasource" />
+    <None Include="Properties\DataSources\MySqlX.XDevAPI.Common.WarningInfo.datasource" />
+    <None Include="Properties\DataSources\MySqlX.XDevAPI.CRUD.AddStatement.datasource" />
+    <None Include="Properties\DataSources\MySqlX.XDevAPI.CRUD.CreateCollectionIndexStatement.datasource" />
+    <None Include="Properties\DataSources\MySqlX.XDevAPI.CRUD.DocResult.datasource" />
+    <None Include="Properties\DataSources\MySqlX.XDevAPI.CRUD.FindStatement.datasource" />
+    <None Include="Properties\DataSources\MySqlX.XDevAPI.CRUD.ModifyStatement.datasource" />
+    <None Include="Properties\DataSources\MySqlX.XDevAPI.CRUD.RemoveStatement.datasource" />
+    <None Include="Properties\DataSources\MySqlX.XDevAPI.DatabaseObject.datasource" />
+    <None Include="Properties\DataSources\MySqlX.XDevAPI.DbDoc.datasource" />
+    <None Include="Properties\DataSources\MySqlX.XDevAPI.Iterator.datasource" />
+    <None Include="Properties\DataSources\MySqlX.XDevAPI.MySqlExpression.datasource" />
+    <None Include="Properties\DataSources\MySqlX.XDevAPI.MySQLX.datasource" />
+    <None Include="Properties\DataSources\MySqlX.XDevAPI.MySqlXConnectionStringBuilder.datasource" />
+    <None Include="Properties\DataSources\MySqlX.XDevAPI.Relational.Column.datasource" />
+    <None Include="Properties\DataSources\MySqlX.XDevAPI.Relational.InternalRowResult.datasource" />
+    <None Include="Properties\DataSources\MySqlX.XDevAPI.Relational.Row.datasource" />
+    <None Include="Properties\DataSources\MySqlX.XDevAPI.Relational.RowResult.datasource" />
+    <None Include="Properties\DataSources\MySqlX.XDevAPI.Relational.SqlResult.datasource" />
+    <None Include="Properties\DataSources\MySqlX.XDevAPI.Relational.SqlStatement.datasource" />
+    <None Include="Properties\DataSources\MySqlX.XDevAPI.Relational.Table.datasource" />
+    <None Include="Properties\DataSources\MySqlX.XDevAPI.Relational.TableDeleteStatement.datasource" />
+    <None Include="Properties\DataSources\MySqlX.XDevAPI.Relational.TableInsertStatement.datasource" />
+    <None Include="Properties\DataSources\MySqlX.XDevAPI.Relational.TableSelectStatement.datasource" />
+    <None Include="Properties\DataSources\MySqlX.XDevAPI.Relational.TableUpdateStatement.datasource" />
+    <None Include="Properties\DataSources\MySqlX.XDevAPI.Schema.datasource" />
+    <None Include="Properties\DataSources\MySqlX.XDevAPI.Session.datasource" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -163,6 +319,22 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\save-file.png" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="SqlServerTypes\readme.htm" />
+    <Content Include="SqlServerTypes\x64\msvcr120.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x64\SqlServerSpatial140.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x86\msvcr120.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x86\SqlServerSpatial140.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

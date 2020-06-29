@@ -34,5 +34,16 @@ namespace PadraoDeProjetoEmCamadas
             this.Text = "Menu";
         }
 
+        private void empresaToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            Relatorios.FRMRelEmpresa form = new Relatorios.FRMRelEmpresa();
+            form.Show();
+        }
+
+        private void relatórioDeEleiçãoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Relatorios.FRMRelEleicao form = new Relatorios.FRMRelEleicao();
+            form.Show();
+        }
     }
 }

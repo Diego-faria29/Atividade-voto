@@ -18,3 +18,22 @@ C:\Users\digui\OneDrive\Área de Trabalho\Unis\terceiro periodo\POO\ModeloCamada
 C:\Users\digui\OneDrive\Área de Trabalho\Unis\terceiro periodo\POO\ModeloCamadasCSharp-master (1)\Atividade marlao\DAL\obj\Debug\DAL.csproj.CopyComplete
 C:\Users\digui\OneDrive\Área de Trabalho\Unis\terceiro periodo\POO\ModeloCamadasCSharp-master (1)\Atividade marlao\DAL\obj\Debug\DAL.dll
 C:\Users\digui\OneDrive\Área de Trabalho\Unis\terceiro periodo\POO\ModeloCamadasCSharp-master (1)\Atividade marlao\DAL\obj\Debug\DAL.pdb
+C:\Users\digui\OneDrive\Área de Trabalho\Unis\terceiro periodo\POO\Atividade marlao\DAL\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+C:\Users\digui\OneDrive\Área de Trabalho\Unis\terceiro periodo\POO\Atividade marlao\DAL\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+C:\Users\digui\OneDrive\Área de Trabalho\Unis\terceiro periodo\POO\Atividade marlao\DAL\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+C:\Users\digui\OneDrive\Área de Trabalho\Unis\terceiro periodo\POO\Atividade marlao\DAL\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+C:\Users\digui\OneDrive\Área de Trabalho\Unis\terceiro periodo\POO\Atividade marlao\DAL\bin\Debug\DAL.dll
+C:\Users\digui\OneDrive\Área de Trabalho\Unis\terceiro periodo\POO\Atividade marlao\DAL\bin\Debug\DAL.pdb
+C:\Users\digui\OneDrive\Área de Trabalho\Unis\terceiro periodo\POO\Atividade marlao\DAL\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\digui\OneDrive\Área de Trabalho\Unis\terceiro periodo\POO\Atividade marlao\DAL\bin\Debug\MODELO.dll
+C:\Users\digui\OneDrive\Área de Trabalho\Unis\terceiro periodo\POO\Atividade marlao\DAL\bin\Debug\MySql.Data.dll
+C:\Users\digui\OneDrive\Área de Trabalho\Unis\terceiro periodo\POO\Atividade marlao\DAL\bin\Debug\Google.Protobuf.dll
+C:\Users\digui\OneDrive\Área de Trabalho\Unis\terceiro periodo\POO\Atividade marlao\DAL\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\digui\OneDrive\Área de Trabalho\Unis\terceiro periodo\POO\Atividade marlao\DAL\bin\Debug\Ubiety.Dns.Core.dll
+C:\Users\digui\OneDrive\Área de Trabalho\Unis\terceiro periodo\POO\Atividade marlao\DAL\bin\Debug\Renci.SshNet.dll
+C:\Users\digui\OneDrive\Área de Trabalho\Unis\terceiro periodo\POO\Atividade marlao\DAL\bin\Debug\MODELO.pdb
+C:\Users\digui\OneDrive\Área de Trabalho\Unis\terceiro periodo\POO\Atividade marlao\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+C:\Users\digui\OneDrive\Área de Trabalho\Unis\terceiro periodo\POO\Atividade marlao\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\digui\OneDrive\Área de Trabalho\Unis\terceiro periodo\POO\Atividade marlao\DAL\obj\Debug\DAL.csproj.CopyComplete
+C:\Users\digui\OneDrive\Área de Trabalho\Unis\terceiro periodo\POO\Atividade marlao\DAL\obj\Debug\DAL.dll
+C:\Users\digui\OneDrive\Área de Trabalho\Unis\terceiro periodo\POO\Atividade marlao\DAL\obj\Debug\DAL.pdb
