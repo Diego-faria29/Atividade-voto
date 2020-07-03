@@ -48,9 +48,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DadosDaConexao.cs" />
+    <Compile Include="DALCandidato.cs" />
     <Compile Include="DALConexao.cs" />
     <Compile Include="DALEleicao.cs" />
+    <Compile Include="DALEleitor.cs" />
     <Compile Include="DALEmpresa.cs" />
+    <Compile Include="DALUrna.cs" />
+    <Compile Include="DALVoto.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SqlServerTypes\Loader.cs" />
   </ItemGroup>

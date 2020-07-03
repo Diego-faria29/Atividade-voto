@@ -45,10 +45,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="MODELOCandidato.cs" />
     <Compile Include="MODELOEleicao.cs" />
+    <Compile Include="MODELOeleitor.cs" />
     <Compile Include="MODELOEmpresa.cs" />
+    <Compile Include="MODELOVoto.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SqlServerTypes\Loader.cs" />
+    <Compile Include="MODELOUrna.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="SqlServerTypes\readme.htm" />

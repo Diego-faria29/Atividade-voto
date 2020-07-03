@@ -45,5 +45,37 @@ namespace PadraoDeProjetoEmCamadas
             Relatorios.FRMRelEleicao form = new Relatorios.FRMRelEleicao();
             form.Show();
         }
+
+        private void urnaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FRMUrna el = new FRMUrna(this);
+            el.ShowDialog();
+            el.Dispose();
+            this.Text = "Menu";
+        }
+
+        private void votoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FRMVoto el = new FRMVoto(this);
+            el.ShowDialog();
+            el.Dispose();
+            this.Text = "menu";
+        }
+
+        private void eleitorToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FRMEleitor el = new FRMEleitor(this);
+            el.ShowDialog();
+            el.Dispose();
+            this.Text = "menu";
+        }
+
+        private void candidatoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FRMCandidato el = new FRMCandidato(this);
+            el.ShowDialog();
+            el.Dispose();
+            this.Text = "menu";
+        }
     }
 }
